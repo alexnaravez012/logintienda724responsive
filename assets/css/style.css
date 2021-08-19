@@ -178,6 +178,10 @@ p {
     background-color: rgba(0, 0, 0, 0) !important;
 }
 
+#modal-pass-error {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
 .button-send-two-responsive {
     height: 50px;
     border-radius: 8px;
@@ -203,31 +207,27 @@ p {
 .container-inputs-reset-pass-responsive {
     width: 390px;
     height: 510px;
-    border-radius: 15px;
-    background-color: white;
-    border: 1px solid rgb(201, 201, 201);
     z-index: 2;
     right: 50px !important;
-    padding-left: 40px;
-    padding-right: 40px;
 }
 
-.inputs-login-reset-pass {
-    height: 40px;
-    width: 308px;
+.inputs-login-reset-pass-responsive {
+    height: 50px;
+    width: 380px;
     background-color: rgb(240, 240, 240);
     margin-top: 8px;
     border-radius: 8px;
     border: none;
+    padding-left: 5px;
 }
 
 .inputs-login-reset-pass:focus {
     outline: 0;
 }
 
-.inputs-login-reset-pass-two {
-    height: 40px;
-    width: 308px;
+.inputs-login-reset-pass-two-responsive {
+    height: 50px;
+    width: 380px;
     background-color: rgb(240, 240, 240);
     margin-top: 8px;
     border-radius: 8px;
